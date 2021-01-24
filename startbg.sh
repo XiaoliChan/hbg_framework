@@ -4,7 +4,6 @@ cp -r www_skel/ www/
 
 sed -i "s/10.2.2.1/$1/g" www/*
 
-cp www/php_rev.php www/HelloThere-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.php.gif
 cp www/php_rev.php www/wp-load.php
 cp www/php_rev.php www/hellothere.php
 
